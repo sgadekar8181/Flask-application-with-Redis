@@ -1,0 +1,5 @@
+r = redis.Redis(
+    host='10.0.0.5',
+    port=6379,
+    decode_responses=True
+)
